@@ -1,0 +1,9 @@
+{
+  "model_name": "YOLOv8n (Transfer Learning COCO)",
+  "pretrained": true,
+  "phase1_frozen_layers": 10,
+  "phase1_epochs": 10,
+  "phase2_fine_tuning_epochs": 10,
+  "total_time_seconds": 851.1629333496094,
+  "best_weight": "D:\\TareasDL\\T2DL\\results\\models\\yolo_transfer\\weights\\best.pt"
+}

@@ -1,0 +1,7 @@
+{
+  "model_name": "YOLOv8n (Desde Cero)",
+  "pretrained": false,
+  "epochs": 20,
+  "total_time_seconds": 870.1429481506348,
+  "best_weight": "D:\\TareasDL\\T2DL\\results\\models\\yolo_scratch\\weights\\best.pt"
+}

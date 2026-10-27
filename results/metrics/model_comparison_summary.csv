@@ -1,0 +1,5 @@
+ID,Modelo,Enfoque,Backbone,mAP@50,mAP@50:95,Precision,Recall,F1-Score,Latencia (ms),FPS,Parámetros (M),Tamaño (MB),Tiempo Train (s),Tiempo Train (min)
+M1,CNN Propia,Desde Cero (Scratch),Deep Residual ConvNet + FPN (Propia),0.0398,0.0116,0.1364,0.1775,0.1542,10.48,95.4,7.17,82.3,1869.1,31.15
+M2,YOLOv8n,Desde Cero (Scratch),Modified CSPDarknet53,0.1228,0.06,0.293,0.1424,0.1917,5.91,169.1,3.02,6.0,870.1,14.5
+M3,YOLOv8n,Transfer Learning (COCO),Modified CSPDarknet53 (COCO Weights),0.2819,0.1942,0.2919,0.2987,0.2952,7.23,138.3,3.14,6.2,851.2,14.19
+M4,Faster R-CNN v2,Transfer Learning (COCO),ResNet-50-FPN v2 (COCO Weights),0.1276,0.0762,0.3081,0.4493,0.3656,66.76,15.0,43.39,165.9,2334.9,38.91

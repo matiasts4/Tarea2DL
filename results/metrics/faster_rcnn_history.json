@@ -1,0 +1,61 @@
+{
+  "model_name": "Faster R-CNN v2 ResNet-50 FPN (Transfer Learning COCO)",
+  "total_params": 43394528,
+  "phase1_frozen_params": 23508032,
+  "phase1_trainable_params": 19886496,
+  "phase2_frozen_params": 1444928,
+  "phase2_trainable_params": 41949600,
+  "total_time_seconds": 2334.9,
+  "best_val_loss": 0.2866,
+  "epochs": [
+    {
+      "phase": 1,
+      "epoch": 1,
+      "train_loss": 0.4887,
+      "val_loss": 0.3574,
+      "epoch_time": 244.7
+    },
+    {
+      "phase": 1,
+      "epoch": 2,
+      "train_loss": 0.3353,
+      "val_loss": 0.3145,
+      "epoch_time": 244.2
+    },
+    {
+      "phase": 1,
+      "epoch": 3,
+      "train_loss": 0.3061,
+      "val_loss": 0.2995,
+      "epoch_time": 243.8
+    },
+    {
+      "phase": 1,
+      "epoch": 4,
+      "train_loss": 0.2905,
+      "val_loss": 0.2913,
+      "epoch_time": 243.4
+    },
+    {
+      "phase": 1,
+      "epoch": 5,
+      "train_loss": 0.2841,
+      "val_loss": 0.2895,
+      "epoch_time": 427.3
+    },
+    {
+      "phase": 2,
+      "epoch": 6,
+      "train_loss": 0.2812,
+      "val_loss": 0.2887,
+      "epoch_time": 513.6
+    },
+    {
+      "phase": 2,
+      "epoch": 7,
+      "train_loss": 0.2797,
+      "val_loss": 0.2866,
+      "epoch_time": 357.9
+    }
+  ]
+}

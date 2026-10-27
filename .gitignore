@@ -1,0 +1,57 @@
+# ==============================================================================
+# .gitignore - Tarea 2 Deep Learning (FjordFish Object Detection)
+# ==============================================================================
+
+# Entorno Virtual Python y Caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Archivos Comprimidos Gigantes
+*.zip
+*.tar
+*.tar.gz
+*.rar
+FjordFish.zip
+
+# Datos masivos, imágenes y etiquetas del dataset (se ignoran las 3002 imágenes y 3002 etiquetas)
+data/raw/
+data/splits/images/
+data/splits/labels/
+data/splits/labels.cache
+data/splits/labels/*.cache
+!data/splits/dataset_manifest.csv
+
+# Pesos de Modelos y Checkpoints (archivos binarios grandes)
+*.pt
+*.pth
+*.weights
+*.ckpt
+*.onnx
+runs/
+results/models/
+
+# Salidas de Presentación, Compilación LaTeX y PDFs
+output/
+*.pdf
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+
+# Documentos Markdown internos, guiones y presentaciones
+# Regla: Se ignoran todos los .md excepto el README.md principal
+*.md
+!README.md
+
+# Archivos temporales y de sistema operativo
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,14 @@
+Condición,Nivel,Factor,mAP@50,mAP@50:95,Precision,Recall,Drop %
+Control (Test Set Limpio),Baseline,1.0,0.2804,0.1923,0.649,0.5396,0.0
+Atenuación Espectral (Luz),Leve,R*0.55,0.2581,0.179,0.6373,0.5005,-7.95
+Atenuación Espectral (Luz),Moderado,R*0.30,0.2386,0.1667,0.6183,0.4142,-14.91
+Atenuación Espectral (Luz),Severo,R*0.15,0.1953,0.1322,0.6399,0.3671,-30.35
+Desenfoque Óptico / Turbidez,Leve,k=5,0.2758,0.1848,0.6602,0.5496,-1.64
+Desenfoque Óptico / Turbidez,Moderado,k=9,0.272,0.1813,0.6597,0.5366,-3.0
+Desenfoque Óptico / Turbidez,Severo,k=15,0.2651,0.177,0.6461,0.5035,-5.46
+Nieve Marina y Ruido,Leve,"σ=8, 0.04%",0.2332,0.1543,0.6544,0.4293,-16.83
+Nieve Marina y Ruido,Moderado,"σ=16, 0.10%",0.1592,0.1011,0.6256,0.2748,-43.22
+Nieve Marina y Ruido,Severo,"σ=26, 0.22%",0.0877,0.0561,0.5378,0.1284,-68.72
+Dispersión y Pérdida Contraste,Leve,c=0.68,0.2672,0.1809,0.6476,0.5236,-4.71
+Dispersión y Pérdida Contraste,Moderado,c=0.42,0.2292,0.1556,0.6026,0.4243,-18.26
+Dispersión y Pérdida Contraste,Severo,c=0.22,0.1415,0.0976,0.4437,0.2096,-49.54
