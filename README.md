@@ -173,8 +173,6 @@ T2DL/
 
 ---
 
-## 9. Declaración de uso de herramientas generativas (Rúbrica ítem 4)
+## 9. Declaración de uso de herramientas generativas
 
-En cumplimiento con los requerimientos éticos de la asignatura:
-* **Ámbito de uso:** Se utilizaron asistentes de inteligencia artificial generativa como herramientas de apoyo para la asistencia sintáctica en scripts de preprocesamiento, generación de plantillas de gráficos en `matplotlib` y formato Markdown de la documentación.
-* **Autoría intelectual y rigor metodológico:** Todas las decisiones de diseño arquitectónico, formulación de funciones de pérdida, particionado estratificado, entrenamiento experimental, auditoría de métricas COCO y análisis crítico de la física submarina fueron concebidas, ejecutadas, verificadas y validadas integralmente por los autores del proyecto.
+Durante el desarrollo de este trabajo se utilizaron herramientas de inteligencia artificial generativa como apoyo técnico para la estructuración de scripts de preprocesamiento, la configuración visual de los gráficos en Matplotlib y la redacción y formateo de la documentación.
